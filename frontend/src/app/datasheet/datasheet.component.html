@@ -1,0 +1,120 @@
+<div class="body">
+    <nav class="navbar navbar-expand-lg  ">
+        <a class="navbar-brand" >Optical Communication</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navspace">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/articles']" routerLinkActive="active" id="navitem">Articles
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/videos']" routerLinkActive="active" id="navitem">Videos</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active" id="navitem">Projects</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/design']" routerLinkActive="active" id="navitem">Design</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/datasheet']" routerLinkActive="active" id="navitem">Datasheet</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/feedback']" routerLinkActive="active" id="navitem">Feedback</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/aboutus']" routerLinkActive="active" id="navitem">About Us</a>
+               </li>
+    
+               <li class="nav-item">
+                <a class="nav-link"  id="navitem1">Hello, {{username}}!</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" id="navitem2" (click)="logout()">Log Out</a>
+               </li>
+    
+    
+      
+            </ul>
+        </div>
+      </nav>
+      <section>
+        <th>Datasheet for different cables for cable designing</th>
+  </section>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 ">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Underground Cable
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show content " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body ">
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/DUCT-LITE-Multitube-Single-Jacket-Fibre-Optic-Cable.html" target="_blank">Multitube Single Jacket Duct Fibre Optic Cable</a><br/>
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/ARMOR-LITE-Multitube-Double-Jacket-Dielectric-Armored-Fibre-Optic-Cable.html" target="_blank"> Multitube Double Dielectric Armored Fibre Optic Cable</a><br/>
+            <a class="headingcolour"  href="https://www.stl.tech/pdf/telecom-pdf/ARMOR-LITE-Multitube-SingleJacket-Steel-Tape-Armored-Fibre-Optic-Cable.html" target="_blank">Multitube Single Jacket Steel Tape Armored Fibre Optic Cable</a><br/>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 ">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Aerial Cable
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show content " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body ">
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/AERIAL-LITE-Multitube-Single-Jacket-ADSS-Fibre-Optic-Cable.html" target="_blank"> AERIAL-LITE ® Multitube Single Jacket ADSS Fibre Optic Cables</a><br/>
+            <a class="headingcolour"  href="https://www.stl.tech/pdf/telecom-pdf/AERIAL-LITE-Multitube-Double-Jacket-ADSS-Fibre-Optic-Cable.html" target="_blank">AERIAL-LITE ® Multitube Double Jacket ADSS Fibre Optic Cable</a><br/>
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/AERIAL-LITE-Multitube-Single-Jacket-Figure-8-Fibre-Optic-Cable.html" target="_blank">AERIAL-LITE ® Multitube Single Jacket Figure - 8 Fibre Optic Cable</a><br/>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 ">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Mirco Cable
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show content " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body ">
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/Micro-LITE-Multitube-Single-Jacket-Fibre-Optic-Cable.html" target="_blank"> Micro-LITE Multitube Single Jacket Micro Duct Fibre Optic Cable</a><br/>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0 ">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Yogalite Cable
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse show content " aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body ">
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/YogaLite-Single-Jacket-Duct-Fibre-Optic-Cable-for-Access-Networks.html" target="_blank">YOGALITE TM Single Jacket Duct Fibre Optic Cable for Access Networks </a><br/>
+            <a class="headingcolour"  href="https://www.stl.tech/pdf/telecom-pdf/YogaLite-Single-Jacket-Duct-or-Overhead-Fibre-Optic-Cable-for-Access-Networks.html" target="_blank">YOGALITE TM Single Jacket Duct or Overhead Fibre Optic Cable for Access Networks</a><br/>
+            <a class="headingcolour" href="https://www.stl.tech/pdf/telecom-pdf/YogaLite-Single-Jacket-Duct-Fibre-Optic-Cable-for-Transport-Networks.html" target="_blank">YOGALITE TM Single Jacket Duct Fibre Optic Cable for Transport Networks</a><br/>
+
+
+        </div>
+      </div>
+    </div>
+</div>

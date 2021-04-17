@@ -1,0 +1,181 @@
+<body>
+    <nav class="navbar navbar-expand-lg  ">
+        <a class="navbar-brand" >Optical Communication</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navspace">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/articles']" routerLinkActive="active" id="navitem">Articles
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/videos']" routerLinkActive="active" id="navitem">Videos</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active" id="navitem">Projects</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/design']" routerLinkActive="active" id="navitem">Design</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/datasheet']" routerLinkActive="active" id="navitem">Datasheet</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/feedback']" routerLinkActive="active" id="navitem">Feedback</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/aboutus']" routerLinkActive="active" id="navitem">About Us</a>
+               </li>
+    
+               <li class="nav-item">
+                <a class="nav-link"  id="navitem1">Hello, {{username}}!</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" id="navitem2" (click)="logout()">Log Out</a>
+               </li>
+    
+    
+      
+            </ul>
+        </div>
+      </nav>
+      <section>
+            <th>Basic Fiber Optic System Designing</th>
+            <p>To date, fiber-optic cable installations have brought high-speed network communications to corporations, campuses, universities, hospitals, libraries, offices and homes. Presently, fiber-optic cabling is also becoming the connection choice for closed-circuit television, government network security, factory automation systems and medical imaging networks, among others. In future operating environments, the development and implementation of standards such as synchronous optical network, fiber distributed data interface, asynchronous transfer mode and Fibre Channel are expected to accelerate the installation of fiber-optic cables.</p>
+            <p> Optical fiber has evolved from a not-so-transparent glass tube to an extraordinarily efficient transmission medium. It is now acknowledged as a central element of modern telecommunication being part of the whole optimization process to further improve transmission system performance and cost. In this paper, we briefly introduce transmission system optimization problematics as well as key fiber characteristics. We then review the elements of fiber design for optimized optical communication networks, including metropolitan, long and ultra-long haul applications and show how fibers have evolved over the last ten years to keep pace with more and more demanding requirement of transmission system. </p><br/>
+            <th>Steps to be considered while designing</th>
+      </section>
+    
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0 ">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Basic fiber elements
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show content" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                A fiber-optic cable comprises a core, cladding and coating. The core--made of either glass or plastic--is the light-transmission material of the fiber. The larger the core, the more light transmits through the fiber. The cladding provides a low refractive index at the core interface to cause reflection within the core; in this way, lightwaves are confined within the fiber. Fiber-optic coatings are usually multi-layers of plastic applied to preserve fiber strength, absorb shock and protect core and cladding.<br/><br/>
+
+                Optical fiber can be identified by the type of paths, or modes, that the light rays travel within the fiber core. The two basic types of fiber are multimode and singlemode.<br/><br/>
+                
+                Multimode fiber cores can be either step-index or graded-index types. Step-index multimode fiber derives its name from the sharp, step-like difference in the refractive indexes of the core and cladding. In common graded-index multimode fiber, light rays are also guided down the fiber in multiple pathways. But, unlike step-index fiber, a graded-index core contains many layers of glass, each with a lower index of refraction as the layers extend outward from the axis.<br/><br/>
+                
+                The effect of grading is that light rays are accelerated in the outer layers to match those rays traveling the shorter pathways directly down the core axis. The result is that a graded-index multimode fiber equalizes the propagation times of the various modes. Data, therefore, can be sent over longer distances and at higher rates before the light pulses start to overlap and become less distinguishable at the receiver end. Graded-index fibers are commercially available with core diameters of 50, 62.5 and 100 microns.<br/><br/>
+                
+                Singlemode fiber allows only a single light ray path or mode to be transmitted down the core. This transmission virtually eliminates any distortion due to overlapping light pulses. The core of a singlemode fiber is extremely small, approximately 5 to 10 microns in diameter. Singlemode fiber has a higher capacity and capability than either of the two multimode types. For example, undersea telecommunications cables can convey 60,000 voice channels on a pair of singlemode fibers.<br/><br>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                System design considerations
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                When selecting components for a fiber-optic system, take into account the three optical fiber factors that affect transmission performance: fiber size, bandwidth and attenuation.
+
+                The size of an optical fiber is commonly referred to by the outer diameter of its core and cladding. For example, 50/125 indicates a fiber with a core with a diameter of 50 microns and a cladding with a diameter of 125 microns. (A micron equals one-millionth of a meter; therefore, 25 microns equal 1/1000 of an inch.)<br/><br/>
+                
+                Fiber core diameters can range from 8 to 200 microns, but are commercially available only in certain sizes. Typically, cladding diameters range from 125 to 230 microns for these fiber sizes. In general, the smaller the core diameter, the better the fiber performance in terms of low attenuation and high bandwidth. The design tradeoff is that the smaller the fiber size, the less light the fiber will capture from a transmitter. This situation sometimes requires the use of a high-power transmitter.<br/><br/>
+                
+                A practical consideration is that fiber size must match the transmitter and receiver being used. In some cases, the transmitter and receiver may be rated for several different fiber sizes; in other cases, they may be rated only for a specific fiber size. In all cases, however, the performance of the fiber and the transmitter/receiver must be considered jointly.<br/><br/>
+                
+                Bandwidth is a measurement of the data-carrying capacity of the fiber. The larger the bandwidth value, the larger the fiber`s information capacity. Bandwidth is expressed in a frequency-distance form (megahertz-kilometer). For example, a 200-MHz-km-rated fiber can move either 200 MH¥of data over a length of 1 km or 100 MH¥of data as far as 2 km.<br/><br/>
+                
+                In addition to physical changes in the light pulses that result from frequency of bandwidth limitations, there are also reductions in the level of optical power as the light pulses travel through the fiber. This optical power loss, or attenuation, is expressed in decibels per kilometer at a specified wavelength.<br/><br/>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Optical fiber loss
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Light is an oscillating electromagnetic wave. Short wavelengths reside in the ultraviolet spectrum. Fiber-optic transmissions, however, usually occur in the infrared spectrum.<br/><br/>
+
+                Wavelengths are measured in nanometers--billionths of a meter--which represent the distance between two cycles of the same wave. Losses of optical power at different wavelengths occur in the fiber due to absorption, reflection and scattering. These losses depend on the specific fiber and its size, purity and refractive index.<br/><br/>
+                
+                Fibers are optimized for operation at certain wavelengths. For ex ample, a less than 1-dB/km loss is a typical value for 50/125-micron multimode fiber operating at 1300 nm. Less than 3 dB/km (50% loss) is typical for the same fiber operating at 850 nm. These two wavelengths--850 and 1300 nm--are the areas most often specified for present fiber-optic systems. Optical fibers have also been optimized at 1550 nm for singlemode-fiber transmission systems.<br/><br/>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Microbending loss
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Without protection, an optical fiber is prone to microbending, which can result in the loss of optical power within the core. Microbends are minute fiber deviations caused by lateral mechanical forces. To overcome this problem, two basic types of fiber protection are used: loose buffer and tight buffer.<br/><br/>
+
+In loose-buffer construction, the fiber is emplaced in a plastic tube that has an inner diameter considerably larger than the fiber itself. Then, the interior of the plastic tube is usually filled with a gel. The loose tube isolates the fiber from exterior mechanical forces acting on the cable. For multi-fiber cables, several tubes, each containing single or multiple fibers, are combined with strength members to keep the fibers free from stress and to minimize cable elongation and contraction.<br/><br/>
+
+By varying the amount of fiber inside the tube during the manufacturing process, the degree of microbending due to temperature variation can be controlled. In this way, the degree of attenuation increase over a temperature range is minimized.<br/><br/>
+
+In tight-buffer construction, a direct extrusion of plastic material is used to cover the basic fiber coating. Tight-buffer construction permits small, lightweight designs for similar fiber configurations and generally yields a flexible, crush-resistant cable. However, this construction also results in lower isolation of the fiber from the stresses of temperature variations. And, although relatively more flexible than loose buffer, tight-buffered cable deployed with sharp bends or twists can produce optical losses that are likely to exceed nominal specifications because of macrobending.<br/><br/>
+
+A refined form of tight-buffer construction is breakout cable, in which a tightly buffered fiber is surrounded by aramid yarn and a jacket, typically made of polyvinylchloride. These single-fiber subunit elements are then covered by a common sheath to form the breakout cable. This "cable within a cable" structure offers the advantage of direct, easy connector attachment and installation.<br/><br/>
+
+Each type of fiber-optic cable construction has inherent advantages and limitations. As a general rule, loose-buffer cables are used for outdoor installations, and tight-buffer cables are used for indoor use. However, once loose- or tight-buffer construction is selected, the system designer has already made some decisions regarding the tradeoffs between microbending loss and flexibility in obtaining optical operation goals.<br/><br/>
+
+For the installation of fiber-optic cables, mechanical properties such as tensile strength, impact resistance, flexing and bending are important system design considerations. Before installation, system designers must also factor in environmental considerations, such as the necessity for resistance to moisture, chemicals and other types of atmospheric or in-ground conditions.<br/><br/>
+
+Normal cable loads sustained during installation might ultimately place the fiber in a state of tensile stress. These levels of stress may cause microbending losses that result in increased attenuation and possible fatigue effects.<br/><br/>
+
+To help transfer the stress loads in short-term installations and long-term applications, various internal strength members are added to the optical cable structure. The addition of strength members provides tensile load properties similar to those in electronic cables, keeping fibers free from stress by minimizing elongation. In some cases, strength members also act as temperature stabilization elements.<br/><br/>
+
+Because optical fiber stretches little before breaking, the strength members must have low elongation at the expected tensile loads. Additional mechanical factors such as impact resistance, flexing and bending must be investigated when choosing strength members.<br/><br/>
+
+The common strength members used in fiber-optic cable manufacturing include aramid yarn, fiberglass epoxy rods and steel wire. Pound for pound, aramid is five times stronger than steel. Aramid and fiberglass epoxy rods are often chosen when all-dielectric construction is required. Steel or fiberglass epoxy are usually recommended when extreme-cold temperature performance is desired, because they offer better temperature stability. For greater protection in outdoor applications, fiber-optic cables can be specified with single or dual jackets or armored for aerial, underground duct and direct burial installations.<br/><br/>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Fiber count
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                To specify the number of fibers used in a cable plant, system designers must carefully evaluate potential future networking demands. This step is critical due to the rapid rate of change in fiber optics technology.<br/><br/>
+
+Depending on the number and type of applications in the network and the level of redundancy needed, fiber count ranges from 2 to more than 100 in backbone networks or to each wiring closet. Because of expensive multiplexing equipment, separate and dedicated fibers are typically used for each application. Even though some systems clearly indicate the number of fibers needed, there are no prevailing fiber-count rules.<br/><br/>
+
+For example, if two buildings were to be networked with an FDDI backbone, four fibers would be required in the cable strung between the buildings--two fibers to transmit and two to receive. However, to accommodate future requirements, at least twice the number of fibers needed should be installed in the system backbone network. Installing not only the required number of fibers for current needs, but also backup fibers and still others for future expansion, ensures a flexible, expandable cable plant.<br/><br/>
+
+Given the array of variables, the design solution for a fiber-optic network that meets today`s needs and, at the same time, stands ready to accommodate rapidly emerging communications technologies, is no simple task. But system designers who take the time to master and expend the resources needed to "future proof" today`s cabling designs will be better positioned to upgrade their systems quickly and conveniently for tomorrow`s applications. <br/><br/>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

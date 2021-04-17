@@ -1,0 +1,115 @@
+<body>
+    <nav class="navbar navbar-expand-lg  ">
+        <a class="navbar-brand" >Optical Communication</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navspace">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/articles']" routerLinkActive="active" id="navitem">Articles
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/videos']" routerLinkActive="active" id="navitem">Videos</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" [routerLink]="['/projects']" routerLinkActive="active" id="navitem">Projects</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/design']" routerLinkActive="active" id="navitem">Design</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/datasheet']" routerLinkActive="active" id="navitem">Datasheet</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/feedback']" routerLinkActive="active" id="navitem">Feedback</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/aboutus']" routerLinkActive="active" id="navitem">About Us</a>
+               </li>
+    
+               <li class="nav-item">
+                <a class="nav-link"  id="navitem1">Hello, {{username}}!</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" id="navitem2" (click)="logout()">Log Out</a>
+               </li>
+    
+    
+      
+            </ul>
+        </div>
+      </nav>
+      <div class="project">
+          <th>Projects on the topic</th>
+      </div>
+      <table class="table">
+        <thead class="thead-dark rowhead">
+          <tr >
+            <th scope="col">No.</th>
+            <th scope="col">Project Titles</th>
+            <th scope="col">Abstract</th>
+            
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr >
+            <th scope="row">1</th>
+            <td>Underwater Acoustic Modems</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/77022-underwater-acoustic-modems.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">2</th>
+            <td>Signaling free localization of link and node failures in an optical mesh-tree network</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76525-signaling-free-localization-of-link-and-node-failures-in-an-optical-mesh-tree-network.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">3</th>
+            <td>Network planning for dual residential- business exploitation of next-generation passive optical networks to provide symmetrical 1 Gb/s services</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76530-network-planning-for-dual-residential-business-exploitation-of-next-generation-passive-optical-networks-to-provide-symmetrical-1-gb-s-services.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">4</th>
+            <td>Sequential Non-Rigid Structure from Motion Using Physical Priors</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76565-sequential-non-rigid-structure-from-motion-using-physical-priors.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">5</th>
+            <td>	Event Discrimination of Fiber Disturbance Based on Filter Bank in DMZI Sensing System</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76584-event-discrimination-of-fiber-disturbance-based-on-filter-bank-in-dmzi-sensing-system.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">6</th>
+            <td>High-Energy Nanosecond Optical Vortex Output From Nd:YAG Amplifiers</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76602-high-energy-nanosecond-optical-vortex-output-from-nd-yag-amplifiers.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">7</th>
+            <td>Symbol Error Rate Model for Communication Using Femtosecond Pulses for Space Applications</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76603-symbol-error-rate-model-for-communication-using-femtosecond-pulses-for-space-applications.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">8</th>
+            <td>Nanoscale Investigation of Degradation and Wavelength Fluctuations in InGaN-Based Green Laser Diodes</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76394-nanoscale-investigation-of-degradation-and-wavelength-fluctuations-in-ingan-based-green-laser-diodes.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">9</th>
+            <td>Human Visual System-Based Fundus Image Quality Assessment of Portable Fundus Camera Photographs	</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76247-human-visual-system-based-fundus-image-quality-assessment-of-portable-fundus-camera-photographs.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          <tr >
+            <th scope="row">10</th>
+            <td>	Energy-Efficient Graphics and Multimedia in 28-nm Carrizo Accelerated Processing Unit</td>
+            <td><a class="btn btn-primary" href="https://www.mtechprojects.com/optical-communications-and-networking/76259-energy-efficient-graphics-and-multimedia-in-28-nm-carrizo-accelerated-processing-unit.html" role="button" target="_blank">Link</a></td>
+          </tr>
+          
+         
+        </tbody>
+      </table>
+      
+      
+</body>

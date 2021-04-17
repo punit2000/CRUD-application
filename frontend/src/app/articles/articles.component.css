@@ -1,0 +1,118 @@
+
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-brand.active{
+    color: #b4dafc;
+}
+.navspace{
+  margin-left: 3%;
+}
+#navitem{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#navitem.active{
+    color: #b4dafc;
+}
+#navitem:hover{
+    color: #b4dafc;
+}
+.container-fluid{
+    color: white;
+}
+#navitem1{
+  margin-left: 5%;
+  color: white;
+  font-size: 18px;
+  margin-top: 11px;
+  margin-left: 200px;
+}
+#navitem2{
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+#navitem2.active{
+  color: #b4dafc;
+}
+#navitem2:hover{
+  color: #b4dafc;
+}
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: century gothic;
+ background-image: linear-gradient(rgba(0,0,0,5),rgba(0,0,0,0.5)), url(https://levvvel.com/wp-content/uploads/best-fiber-optic-modem-router.jpg);
+ height: 150vh;
+ background-size: cover;
+ background-position: center;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     background-color: transparent;
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 12px #ffff;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  height: 150px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  font-weight:200;
+  color: #ffff
+ }
+
+h1{
+  font-size: 20px;
+  font-weight:200;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  background-color: transparent;
+        
+}
+button{
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #ffff;
+  border-radius: 5px;
+  padding:12px;
+}
+button:hover{
+  background-color: #099FFF;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+a{
+    font-size: 18px;
+    color: #ffff; 
+}

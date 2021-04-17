@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../images/pic.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand{
+    color: white;
+    font-size: 33px;
+}
+.navbar-brand:hover{
+    color: #b4dafc;
+}
+.navbar-brand.active{
+    color: #b4dafc;
+}
+#navitem{
+    color: white;
+    font-size: 20px;
+}
+#navitem.active{
+    color: #b4dafc;
+}
+#navitem:hover{
+    color: #b4dafc;
+}
+.container-fluid{
+    margin-top: 7%;
+    color: white;
+  }
+#buttons{
+    margin: 5%;
+}
+#button1{
+   background-color:  #4768f7;
+   color: white;
+
+}
+#button2{
+    margin-left: 10px;
+    background-color: #03a4ff;
+}
+.feedback{
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
